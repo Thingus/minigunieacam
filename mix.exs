@@ -4,11 +4,11 @@ defmodule MiniGunieaCam.MixProject do
   def project do
     [
       app: :minigunieacam,
-      version: "0.1.0"
+      version: "0.1.0",
       deps: [
-        :phoenix,
-        :plug_cowboy,
-        :jason
+        {:phoenix, "~> 1.4"},
+        {:plug_cowboy, "~> 2.0"},
+        {:jason, "~> 1.0"}
       ]
     ]
   end
