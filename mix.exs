@@ -6,7 +6,8 @@ defmodule MiniGunieaCam.MixProject do
       app: :minigunieacam,
       version: "0.1.0",
       deps: [
-        {:phoenix, "~> 1.4"},
+        {:phoenix, "~> 1.7"},
+        {:phoenix_html, "~> 3.0"},
         {:plug_cowboy, "~> 2.0"},
         {:jason, "~> 1.0"}
       ]
