@@ -1,4 +1,8 @@
 defmodule MiniGunieaCam.Router do
   use Phoenix.Router
-  get("/", MiniGunieaCam.HomeController, :index)
+  import Phoenix.LiveView.Router
+
+  scope "/", MiniGunieaCam do
+    live "/", MiniGunieaCam.CamLive
+  end
 end

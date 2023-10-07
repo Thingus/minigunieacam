@@ -8,6 +8,7 @@ defmodule MiniGunieaCam.MixProject do
       deps: [
         {:phoenix, "~> 1.7"},
         {:phoenix_html, "~> 3.0"},
+        {:phoenix_live_view, "~> 0.18"},
         {:plug_cowboy, "~> 2.0"},
         {:jason, "~> 1.0"}
       ]
